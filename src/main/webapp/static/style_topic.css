@@ -1,0 +1,116 @@
+body{
+    background-image: url("/images/6.jpg");
+    background-size: cover; /* покрывает весь экран */
+    background-position: center center; /* центрирует изображение */
+    background-repeat: no-repeat; /* не повторяет изображение */
+    height: 100vh;
+    width: 100vw;
+}
+
+div.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 -50% 0 0;
+    transform: translate(-50%, -50%)
+}
+
+.form-container{
+    background: #ecf0f3;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.form-icon{
+    color: #ac40ab;
+    font-size: 55px;
+    line-height: 50px;
+    width: 50px;
+    height:50px;
+    margin: 0 auto 15px;
+    border-radius: 50px;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px #fff;
+}
+
+.form-container .title{
+    color: #ac40ab;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.form-container .form-horizontal .form-group{ margin: 0 0 25px 0; }
+
+.form-container .form-horizontal .form-group label{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.form-container .form-horizontal .form-control{
+    color: #333;
+    background: #ecf0f3;
+    height: 50px;
+    padding: 20px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #fff;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.form-container .form-horizontal .form-control:focus{
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #fff;
+    outline: none;
+}
+
+.form-container .form-horizontal .form-control::placeholder{
+    color: #808080;
+    font-size: 14px;
+}
+
+.form-container .form-horizontal .btn{
+    color: #000;
+    background-color: #cbced1;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px #fff;
+    border: none;
+    transition: all 0.5s ease 0s;
+}
+a.form-container .form-horizontal .btn{
+    background-color: thistle;
+}
+
+.form-container .form-horizontal .btn-default{
+    color: #000;
+    background-color: thistle;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px #fff;
+    border: none;
+    transition: all 0.5s ease 0s;
+}
+
+.form-container .form-horizontal .btn:hover,
+.form-container .form-horizontal .btn:focus,
+.btn-default:hover .btn-default:focus{
+    color: #fff;
+    letter-spacing: 3px;
+    box-shadow: none;
+    outline: none;
+}

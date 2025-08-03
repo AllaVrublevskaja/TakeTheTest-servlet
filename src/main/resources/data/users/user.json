@@ -1,0 +1,16 @@
+[ {
+  "id" : "0a501d6a-7a8a-4675-bfc5-aec2c870e653",
+  "name" : "admin",
+  "password" : "$2a$10$zfM7KE1ahNjHRK3IcFfGouC78WbIb5Artgkx2G49d6.25Zm6n44d6",
+  "admin" : true
+}, {
+  "id" : "cb4098e7-dc57-4eba-9ab5-dc996ebeac29",
+  "name" : "alla",
+  "password" : "$2a$10$d7dxsTNT6d8i3VIRiVf8VOXXrJr0Zw7IOyGBzFFeEcd3QhUYe43QK",
+  "admin" : true
+}, {
+  "id" : "3d06d1c9-27fb-4d5c-b585-ede6b09e1bf9",
+  "name" : "ivan",
+  "password" : "$2a$10$7QcEPstMf29nHeFbti4dt.HaH/A50ipI4PtSIf0JDw7QHE40l/1ye",
+  "admin" : false
+} ]
