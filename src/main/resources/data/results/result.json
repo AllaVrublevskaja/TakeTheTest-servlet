@@ -1,1 +1,13 @@
-[ ]
+[ {
+  "id" : "eeaba144-8e8b-40d2-a318-dbc692bd58bc",
+  "userId" : "cb4098e7-dc57-4eba-9ab5-dc996ebeac29",
+  "testId" : "1a7eddcc-b4d9-44f7-9e8d-0713b7ac2d56",
+  "date" : "2025-10-18T16:59:51",
+  "selectedAnswerLists" : [ {
+    "id" : "f8858a5a-f387-44ad-9cd8-e55a785e7a5b",
+    "questionId" : "b9ab828e-d13a-4732-b3ae-2cf181ed866f",
+    "selectedAnswerId" : "f1a9bd2e-1335-4b3a-9ca6-79a85ca6f080",
+    "selectedAnswerName" : "88888 третий new",
+    "correct" : true
+  } ]
+} ]

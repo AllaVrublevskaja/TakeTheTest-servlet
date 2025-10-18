@@ -2,8 +2,6 @@ package listener;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import dao.EntityDao;
 import entity.*;
 import jakarta.servlet.ServletContext;
@@ -26,10 +24,7 @@ public class ContextListener implements ServletContextListener {
         String path = "D:\\JavaRushUniver\\TakeTheTest-servlet\\src\\main\\resources\\data\\";
         servletContext = sce.getServletContext();
 
-        ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.registerModule(new JavaTimeModule());
-        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-        objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+        ObjectMapper objectMapper = MapperInstatce.getMapper();
 
         File userFile = new File(path + "users/user.json");
         File topicFile = new File(path + "tests/topic.json");
